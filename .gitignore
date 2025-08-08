@@ -1,5 +1,13 @@
-build/
-devel/
+ai_module/build/
+ai_module/devel/
+/build/
+/devel/
+/src/planning_node/src/data/*
+!/src/planning_node/src/data/
+
 .vscode/
 *.pyc
-__pycache__/
+**/.vscode/**
+**/__pycache__/**
+*.pkl
+*.pth
